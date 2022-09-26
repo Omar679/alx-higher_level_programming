@@ -20,6 +20,7 @@ def matrix_mul(m_a, m_b):
             if len(row_a) != len(m_b) and type(m_b[0]) is list:
                 raise ValueError("m_a and m_b can't be multiplied")
         size = len(row_a)
+        
     size = None
     for row_b in m_b:
         if type(row_b) is not list:
